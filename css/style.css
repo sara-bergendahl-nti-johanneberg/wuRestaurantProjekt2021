@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/Halloween-bakgrund.jpg);
+    background-image: url(../img/pannkaka2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -9,7 +9,7 @@ body {
     display: grid;
     
     height: 97vh;
-    width: 97vw; 
+    width: 99vw; 
     grid-template-areas:
         "He He He "
         "S1 S2 Na"
@@ -19,7 +19,7 @@ body {
         "Fo Fo Fo"
 
      ;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 5px;
 }
